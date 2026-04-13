@@ -69,7 +69,6 @@ public class UserController {
         try {
             userService.updateProfile(email, userProfileDto, photo);
         } catch (RuntimeException e) {
-            // Заполняем данные для твоей error.ftlh
             model.addAttribute("status", "400");
             model.addAttribute("reason", e.getMessage());
             return "error";
