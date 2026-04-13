@@ -34,9 +34,13 @@
                     <h5 class="fw-bold">Панель работодателя</h5>
                     <div class="row g-2 mt-2">
                         <div class="col-md-6">
-                            <a href="/vacancies" class="btn btn-outline-danger w-100 text-start">
-                                <i class="bi bi-briefcase"></i> Мои вакансии
-                            </a>
+                            <a href="/vacancies" class="btn btn-outline-danger w-100 text-start">Мои вакансии</a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="/vacancies/create" class="btn btn-danger w-100 text-start">Опубликовать вакансию</a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="/resumes" class="btn btn-outline-secondary w-100 text-start">Базовые резюме</a>
                         </div>
                     </div>
                 </div>
